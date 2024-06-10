@@ -1,0 +1,93 @@
+.App {
+  text-align: center;
+  margin-top: 50px;
+  font-family: Arial, sans-serif;
+}
+
+.god-card-selection h3 {
+  font-size: 24px;
+}
+
+.label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+
+.select {
+  font-size: 20px;
+  padding: 5px;
+  margin-right: 20px;
+}
+
+.selection-group {
+  margin-bottom: 10px;
+}
+
+.god-card-display {
+  font-size: 15px;
+}
+
+.second-build-message {
+  margin-bottom: 20px;
+  font-size: 19px;
+}
+
+.board {
+  display: grid;
+  grid-template-columns: repeat(5, 100px);
+  grid-template-rows: repeat(5, 100px);
+  justify-content: center;
+  margin: auto;
+}
+
+.cell {
+  width: 100px;
+  height: 100px;
+  background-color: #fff;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.cell-content {
+  font-size: 14px;
+}
+
+.cell-available-workers {
+  background-color: lightgray;
+}
+
+.cell-selected-worker {
+  background-color: lightgray;
+}
+
+.cell-possible-moves {
+  background-color: lightblue;
+
+}
+
+.cell-possible-builds {
+  background-color: yellowgreen;
+}
+
+.message {
+  margin-bottom: 20px;
+  font-size: 20px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 10px 20px;
+  font-size: 18px;
+  cursor: pointer;
+  color: black;
+  border: #000 1px;
+  border-radius: 5px;
+  margin-bottom: 10px;
+}
+
+button:hover {
+  opacity: 0.8;
+}
